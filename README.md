@@ -14,12 +14,7 @@ Add `#{power_consumption}` format strings to existing `status-right` tmux option
 
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
-    set -g @tpm_plugins '             \
-      tmux-plugins/tpm                \
-      manuelmazzuola/tmux-current=power       \
+    set -g @tpm_plugins '               \
+      tmux-plugins/tpm                  \
+      manuelmazzuola/tmux-current-power \
     '
-
-Reload TMUX environment:
-
-    # type this in terminal
-    $ tmux source-file ~/.tmux.conf
