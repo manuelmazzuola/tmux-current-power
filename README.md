@@ -12,7 +12,7 @@ Add `#{power_consumption}` format strings to existing `status-right` tmux option
 
 ### Installation with [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) (recommended)
 
-Add plugin to the list of TPM plugins in `.tmux.conf`:
+Add plugin to the list of TPM plugins in `.tmux.conf` and hit prefix + I to fetch the plugin:
 
     set -g @tpm_plugins '               \
       tmux-plugins/tpm                  \
