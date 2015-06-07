@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 power_consumption="#($CURRENT_DIR/power_consumption.sh)"
 power_consumption_interpolation="\#{power_consumption}"
 
