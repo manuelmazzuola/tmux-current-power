@@ -9,7 +9,7 @@ check_power_supply() {
 	fi
 }
 
-print_power_consumtpion() {
+print_power_consumption() {
 	check_power_supply
 	if [ -a /sys/class/power_supply/${BATT}/power_now ]
 		then
@@ -25,6 +25,6 @@ print_power_consumtpion() {
 }
 
 main() {
-	print_power_consumtpion
+	print_power_consumption
 }
 main
